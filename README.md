@@ -9,6 +9,8 @@ Read the entire README and Dortania guides before you start. I am not responsibl
 When you encounter bug or want to improve this repo, consider opening issue or pull request. 
 If you find this bootloader configuration useful, consider giving it a star to make it more visible.
 
+Also yes, the README file is not just copy pasted from another repo. It contains information specific to this EFI config.
+
 ## Introduction
 
 <details> 
@@ -18,8 +20,6 @@ If you find this bootloader configuration useful, consider giving it a star to m
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
 
 - Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)
-
-- [CREDITS](CREDITS.md) file
 
 </details>  
 
@@ -259,8 +259,6 @@ Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtar
 
 <summary><strong>CFG Lock | Advanced menu</strong></summary>
 <br>
-
-<img align="left" src="./Other/README_Resources/SPI_Programmer_CH341a.jpg" alt="SPI_Programmer_CH341a.jpg" width="220">
 
 It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + Other Advanced menu benefits. SPI Programmer CH341a is required
 
