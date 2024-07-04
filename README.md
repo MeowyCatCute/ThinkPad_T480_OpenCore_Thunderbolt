@@ -29,7 +29,7 @@ Also yes, the README file is not just copy pasted from another repo. It contains
 <br>
 
 
-[![UEFI](https://img.shields.io/badge/UEFI-N24ET61W-lightgrey)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t480-type-20l5-20l6/downloads/ds502355)
+[![UEFI](https://img.shields.io/badge/UEFI-N24UJ38W-lightgrey)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t480-type-20l5-20l6/downloads/ds502355)
 | Category  | Component                            | Note                                                                                                               |
 | --------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
 | CPU       | Intel Core 8th Gen                   | BIOS 1.51 TB NVM 43                                                                                                |
@@ -209,6 +209,8 @@ Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtar
 
 - [x] HDMI `Closed lid. With audio.`
 
+- [x] USB-C Outputs `Both USB-C ports works independently of Thunderbolt status (Non-TB3 EFI only supports DP through the upper port).`
+
 - [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
 
 - [x] Intel I219V Ethernet port `Full 1 Gbps speeds and external eithernet adapter next to TB port also works`
@@ -229,7 +231,7 @@ Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtar
 
 - [x] TouchPad `1-5 fingers swipe works. Emulate force touch using longer and more voluminous touch.`
 
-- [x] TrackPoint  `Works perfectly. Just like on Windows or Linux.`
+- [x] TrackPoint  `Works perfectly. Edited kext Info.plist for more precise acceleration.`
 
 - [x] USB Ports `USB Map is different for devices with Windows Hello camera.`
 
