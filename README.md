@@ -245,11 +245,25 @@ Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtar
 
 <details>  
 
-<summary><strong>What's not working ⚠️</strong></summary>
+<summary><strong>What must be fixed by unlocking BIOS ⚠️</strong></summary>
     
 - [ ] Thunderbolt Sleep/Wake  `Thunderbolt needs a cold boot to be enabled. If you enter a sleep/wake cycle you will need to shutdown and cold boot again.`
 
-- [ ] 4K Output  `USB-C currently can only support output up to 2K. Culprit is unknown.`
+- [ ] 4K Output  `USB-C currently can only support output up to 2K.`
+
+Note that if you perform the `skyra1n` mod for your laptop's BIOS, it is possible to adjust the DVMT from the default 32MB to 64MB, making it possible to disable DVMT patches in `DeviceProperties` and fix 4K internal/external display output issues. Similarly and less documented previously, by enabling `GPIO3 Force Pwr` and `GPIO3 Force Pwr for RP05`, you could at least enable Thunderbolt hot reboot functionality, meaning that you do not need to perform a full shutdown and boot cycle to regain Thunderbolt functionality after a Sleep/Wake cycle. While less ideal than a full-fledged Sleep/Wake compatible hotswap functionality, this should be the best solution before further fixing the SSDT.
+
+</details>  
+
+<details>  
+
+<summary><strong>What will never work 🚫</strong></summary>
+    
+- [ ] Fingerprint
+
+- [ ] Windows Hello IR Camera
+
+- [ ] Smart Card Reader
 
 </details>  
 
