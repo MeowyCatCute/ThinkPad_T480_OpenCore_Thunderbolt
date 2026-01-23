@@ -1,8 +1,8 @@
 # ThinkPad_T480_OpenCore_Thunderbolt
 
-**Supported macOS: 14 Sonoma, should boot 15 Sequoia with minimum kext updates**
+**Supported macOS: 11 Big Sur to 26 Tahoe**
 
-Highest tested stable OS: 14.5
+Highest tested stable OS: 26.2
 
 **DISCLAIMER:**
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
@@ -288,18 +288,16 @@ https://www.reddit.com/r/thinkpad/comments/ffqqx5/currently_testing_skyra1n/
 </details>  
 
 
-## Repo-specific notes
+## Changelog
 
 <details>  
-
-<summary><strong>There are two EFIs in the repo. Which one should I choose? </strong></summary>
+    
+<summary><strong>2026 - Final Update</strong></summary>
 <br>
 
-For Thunderbolt support please download the EFI folder. This one is based on [pierpaolodimarzo's EFI config](https://github.com/pierpaolodimarzo/ThinkPad-T480).
+- Update USB Map, Kexts and OC-Mod to support macOS Tahoe
 
-For non-Thunderbolt support please download the zip file. This one is based on [valnoxy's EFI config](https://github.com/valnoxy/t480-oc). One notably benefit of using this EFI instead of valnoxy's one is that their config contains a rather long and redundant kext injection list.
-
-Note that the non-TB config is no longer maintained. You will lose TB port DP output as well as 40Gb TB3 support, but you will gain better battery life. Both should boot macOS Sonoma equally well.
+- Fix random shutdown-to-restart issues caused by USB3.1 (TB3)
 
 </details>  
 
